@@ -1,0 +1,268 @@
+*{margin:0px;padding:0px;}
+.cisti{clear:both;}
+#omot{width:800px;
+margin:0px auto;
+height:1373px;
+}
+#header{width:800px;
+height:200px;
+}
+#logo{
+width: 120px;
+height: 200px;
+float: left;
+background-image: url(slike/note.jpg);
+background-size: 120px 200px;
+}
+#naslov{
+width:680px;
+height:200px;
+float:right;
+background-image:url(slike/b1218.jpg);
+background-size:340px 200px;
+}
+#meni {float:right;
+padding-top:5px;
+padding-right: 6px;
+}
+#nav a{margin-left:20px;
+text-decoration:none;
+background-color:#ACB78E;
+vertical-align: super;
+font-family:Arial;
+font-weight: bold;
+font-size:25px;
+border-radius:10px;
+border-image:url(lista_krug.png) 30 30 round;
+box-shadow:5px 5px 5px #888;
+color:red;
+}
+#nav a:hover{
+color:rgba(192, 44, 44, 1);
+}
+#nav{
+width:800px;
+height:42px;
+vertical-align: super;
+background-color:BA8AFD;
+}
+#nav li{display:inline;
+list-style:none;}
+body{background-color:#eee;
+background-image:url(slike/images.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+#slika{
+width:300px;
+height:150px;}
+#sredina{
+width:800px;
+height:996px;
+position:relative;
+background-color:rgba(203, 215, 23, 0.91);}
+#sredina h1{
+text-align:center;
+padding:10px;
+}
+#sredina p{
+padding:15px;
+text-align:justify;
+font-size:18px;
+font-family:Arial;
+}
+#sredina h2{padding-left:15px;}
+.uvuceno {text-indent:40px;}
+.vazno{text-align:center;color:blue;}
+.none{text-decoration:none;}
+#vesti{
+width:750px;
+height:350px;
+margin:25px;
+position:absolute;
+bottom:20px;
+border:3px solid #FFF;
+}
+.slike{width:374px;height:350px;}
+.slikalevo{float:left;border-right:1px solid #FFF;}
+.slikadesno{float:right;}
+.tekst9{width:374px;
+height:150px;
+font-family:Helvetica;
+font-size:20px;}
+#slika1{
+background-image:url(slike/PukniZoro.jpg);
+width:374px;
+height:200px;
+background-size:374px 200px;}
+#slika2{
+background-image:url(slike/mojabivsa.jpg);
+width:374px;
+height:200px;
+background-size:374px 200px;}
+
+#seacher {
+width: 141px;
+height: 42px;
+position: absolute;
+top: 8px;
+right: 37px;
+}
+#upit{
+width:200px;
+height:492px;
+position:relative;
+top:10px;
+left:10px;
+}
+#upit fieldset{
+background-color:white;
+border:3px solid;
+border-color:rgba(0, 181, 252, 1);
+}
+#glasaj{
+cursor: pointer;
+background-color: rgba(51, 21, 202, 1);
+border-color: red;
+width: 110px;
+height: 27px;
+color: rgba(203, 207, 22, 1);
+text-transform: uppercase;
+box-shadow:8px 7px 5px #888;
+border-radius:12px;
+}
+#upit p{
+padding:0;}
+#form1 legend{
+margin-left:155px;
+}
+#form2 legend{
+margin-left:105px;
+}
+#form3 legend{
+margin-left:119px;
+}
+.forma {
+position:relative;
+left:230px;
+width:300px;
+top:40px;
+height:900px;
+}
+
+fieldset {background-color:yellow;
+box-shadow:10px 10px 5px #888;
+}
+.forma h2{
+	text-shadow: 5px 5px 5px #993333;
+}
+.formbutton{
+cursor: pointer;
+background-color: #ca1a15;
+border-color: #730000;
+width: 110px;
+height: 27px;
+color: #F6F4F0;
+text-transform: uppercase;
+box-shadow:8px 7px 5px #888;
+}
+legend{color:red;
+}
+#preuzeto{
+width:244px;
+height:25px;
+position:absolute;
+bottom:16px;
+right:10px;
+}
+#mreze{
+width:800px;
+height:50px;
+background-color:rgba(174, 145, 185, 0.54);
+}
+#s_mreze{margin:0 auto;
+width:158px;}
+#s_mreze ul{text-decoration:none;
+list-style:none;
+text-align:center;
+}
+#s_mreze li{display:inline;}
+#s_mreze a img {
+	width: 30px;
+	height: 30 px;
+	padding: 10px;
+	opacity: 0.4;
+	filter: alpha(opacity=40); 
+}
+#futer{
+width:800px;
+height:81px;
+background-color:yellow;}
+#futer ul{
+list-style: none;
+text-align: center;
+padding: 15px;
+font-size: large;
+}
+#futer li{display:inline;
+}
+#futer a{
+text-decoration:none;
+padding-right:10px;
+}
+#futer a:hover{color:red;}
+#futer p{
+color:black;}
+.li_border{
+border-right:1px solid #000;
+margin-right:10px;
+}
+/*slike*/
+#sredina h1{text-align:center;}
+#levosl{
+width:400px;
+height:936px;
+float:left;}
+#desnosl{
+width:400px;
+height:936px;
+float:right;
+}
+#slika3{position:absolute;top:64px;left:10px;}
+#slika4{position:absolute;top:400px;left:10px;}
+#slika5{position:absolute;top:736px;left:10px;}
+#slika6{position:absolute;top:64px;right:10px;}
+#slika7{position:absolute;top:400px;right:10px;}
+#slika8{position:absolute;top:736px;right:10p;}
+/*slike*/
+#muzika1{
+width:500px;
+height:542px;
+position:absolute;
+top:50px;
+left:230px;
+}
+#muzika1 h2{
+padding:24px 0px;
+
+}
+.nas{
+text-indent:40px;
+color:blue;
+}
+#sastrane{
+width:160px;
+height:230px;
+position:absolute;
+top:50px;
+right:10px;
+}
+#sredina p{
+text-align:justify;
+Word-wrap:break-word;
+}
+#slika10{
+width:410px;
+height:450px;
+margin-left:50px;
+}
